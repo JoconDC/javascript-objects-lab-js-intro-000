@@ -1,6 +1,6 @@
 var recipe = new Object();
 
-function updateRecipeWithStepAndMethod(object, key, value) {
+function updateObjectWithStepAndMethod(object, key, value) {
 return Object.assign({}, object, {[key]: value})
 }
 
